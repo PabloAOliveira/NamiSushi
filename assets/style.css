@@ -1,0 +1,2027 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Serif JP", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+
+  scroll-margin: -500px;
+}
+
+.colormain {
+  color: rgb(177, 11, 33);
+}
+
+.titlenav {
+  width: 45%;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titlenav h2 {
+  font-size: 20px;
+  color: rgb(243, 239, 239);
+  color: rgb(177, 11, 33);
+  margin-top: 6px;
+  font-size: 15px;
+}
+
+.titlenav img {
+  width: 25px;
+  margin-right: 5px;
+}
+
+.titlenav {
+  bottom: 650px;
+  position: absolute;
+  right: 11px;
+  height: 100px;
+  letter-spacing: 10px;
+}
+.active {
+  background-color: rgb(231, 231, 231);
+}
+
+.active2 {
+  background-color: rgb(29, 28, 28);
+}
+.conticon {
+  height: 5vh;
+  width: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+nav {
+  position: absolute;
+  position: fixed;
+  border-right: 1px rgba(209, 206, 206, 0.267) solid;
+  background-color: rgb(245, 240, 240);
+
+  z-index: 250;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 8vh;
+  gap: 4px;
+  align-content: center;
+  justify-content: center;
+}
+
+.conticon:hover {
+  border: 1px solid rgba(146, 142, 142, 0.144);
+}
+
+.active:hover {
+  border: 0px solid white;
+}
+
+header {
+  background-color: rgb(197, 21, 44);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 80px;
+}
+
+.mainfigure {
+  width: 51%;
+  height: 90%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.photo1 {
+  width: 70%;
+  height: 65vh;
+  background-color: rgb(197, 21, 44);
+  background-image: url(./images/let-us-have-sushi-as--instead-wallpaper.webp);
+  background-size: cover;
+  border-radius: 1px;
+  background-position: 15%;
+  box-shadow: rgb(35, 36, 36) 0px 20px 30px -10px;
+  filter: brightness(80%);
+  border-radius: 8px;
+}
+.photo2 {
+  width: 20%;
+  height: 400px;
+
+  background-position: 50%;
+  flex-direction: column;
+  display: flex;
+}
+h1 {
+  margin-left: 100px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-weight: bold;
+
+  text-align: center;
+  color: rgb(248, 248, 248);
+  padding-bottom: 20px;
+  font-size: 80px;
+}
+h1 span {
+  margin-right: 80px;
+}
+.gallery {
+  width: 1000px;
+
+  display: flex;
+
+  align-items: center;
+}
+
+.photo4 {
+  width: 75%;
+  height: 45%;
+
+  background-size: cover;
+  background-color: rgb(255, 255, 255);
+  background-position: 50% 0px;
+  background-repeat: no-repeat;
+  box-shadow: rgba(33, 33, 34, 0.452) 0px 20px 30px -10px;
+  border-radius: 0px 0px 11px 0px;
+}
+
+.photo3 {
+  width: 52%;
+  height: 35%;
+  background-color: rgb(238, 238, 238);
+  background-size: cover;
+  box-shadow: rgba(33, 33, 34, 0.452) 0px 20px 30px -10px;
+  border-radius: 0px 0px 11px 0px;
+}
+
+.photo5 {
+  width: 95%;
+  height: 50%;
+  background-color: rgb(234, 234, 235);
+  box-shadow: rgba(33, 33, 34, 0.452) 0px 20px 30px -10px;
+}
+
+.arriba1 {
+  width: 40%;
+  border-radius: 0px 10px 0px 0px;
+}
+
+.arriba2 {
+  width: 70%;
+  border-radius: 0px 10px 0px 0px;
+}
+
+.arriba3 {
+  width: 88%;
+  border-radius: 0px 10px 0px 0px;
+  background-color: rgba(27, 23, 23, 0.432);
+  backdrop-filter: blur(3.6px);
+  -webkit-backdrop-filter: blur(8.6px);
+  box-shadow: rgba(23, 23, 26, 0.342) 0px 20px 30px -10px;
+}
+
+.thedoubletext {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.thedoubletext h3 {
+  color: aliceblue;
+
+  letter-spacing: 10px;
+  margin-left: 80px;
+  font-size: 15px;
+}
+
+.sakuraflower {
+  position: absolute;
+  top: 50px;
+  left: 950px;
+}
+@media only screen and (min-width: 3000px) {
+  .sakuraflower {
+    position: absolute;
+
+    top: 40px;
+    left: 1800px;
+  }
+}
+
+@media only screen and (max-width: 1650px) {
+  .sakuraflower {
+    position: absolute;
+
+    top: 40px;
+    left: 780px;
+  }
+}
+
+@media only screen and (max-width: 1555px) {
+  .sakuraflower {
+    position: absolute;
+    top: 40px;
+    left: 670px;
+  }
+}
+
+@media only screen and (max-width: 1447px) {
+  .sakuraflower {
+    position: absolute;
+    top: 10px;
+    left: 550px;
+  }
+}
+
+@media only screen and (max-width: 1317px) {
+  .sakuraflower {
+    position: absolute;
+    top: 10px;
+    left: 400px;
+  }
+}
+@media only screen and (max-width: 1180px) {
+  h1,
+  h3 {
+    z-index: 100;
+  }
+  .sakuraflower {
+    left: 580px;
+    z-index: 0;
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 951px) {
+  h1,
+  h3 {
+    z-index: 100;
+  }
+  .sakuraflower {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .thedoubletext {
+    width: 30%;
+    margin-left: 20px;
+  }
+  .thedoubletext h1 {
+    font-size: 75px;
+  }
+
+  .thedoubletext h3 {
+    font-size: 8px;
+    width: 75%;
+  }
+
+  .photo4 {
+    display: none;
+  }
+
+  @media only screen and (max-width: 1130px) {
+    .thedoubletext {
+      width: 30%;
+      margin-left: 20px;
+    }
+
+    .thedoubletext h1 {
+      font-size: 60px;
+    }
+
+    .thedoubletext h3 {
+      font-size: 6px;
+      width: 250px;
+      margin-left: 110px;
+    }
+
+    .mainfigure {
+      width: 50%;
+    }
+
+    .mainfigure .photo1 {
+      background-position: 54%;
+    }
+  }
+
+  @media only screen and (max-width: 977px) {
+    .mainfigure {
+      width: 350px;
+    }
+  }
+
+  @media only screen and (max-width: 860px) {
+    nav {
+      height: 100%;
+      width: 8vh;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .titlenav {
+      bottom: 205px;
+      position: absolute;
+      right: 10px;
+    }
+    .titlenav h2 {
+      font-size: 9px;
+      letter-spacing: 20px;
+    }
+  }
+
+  .mainfigure {
+    width: 320px;
+  }
+
+  .gallery {
+    width: 250px;
+  }
+  .photo1 {
+    width: 100%;
+    height: 90vh;
+    background-position: 54%;
+  }
+
+  .photo5 {
+    display: none;
+  }
+
+  .photo3 {
+    display: none;
+  }
+
+  .photo4 {
+    height: 500px;
+    width: 20px;
+  }
+  .photo2 {
+    height: 850px;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .thedoubletext {
+    margin-left: 90px;
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .photo2 {
+    display: none;
+  }
+
+  .mainfigure {
+    width: 130px;
+    margin-right: 100px;
+    height: 430px;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .thedoubletext h1 {
+    font-size: 35px;
+    margin-left: 150px;
+  }
+
+  .thedoubletext h3 {
+    display: none;
+  }
+
+  .cta-button {
+    margin-bottom: 30px;
+    right: -20px !important;
+    width: 150px;
+    font-size: 0.8rem !important;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .thedoubletext {
+    width: 50%;
+  }
+
+  #searchbar1 {
+    margin-top: 20px;
+  }
+  .nav2 {
+    position: absolute;
+    top: 50px;
+    left: -120px;
+    z-index: 1000;
+  }
+  .mainfigure {
+    width: 35%;
+    margin-top: 100px;
+    height: 150px;
+  }
+
+  .mainfigure .photo1 {
+    height: 550px;
+    margin-right: 30px;
+  }
+  nav {
+    width: 100%;
+    height: 8vh;
+    z-index: 200;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(43, 42, 41, 0.979);
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(226, 222, 223);
+}
+
+main {
+  height: 100vh;
+  background-color: rgb(253, 251, 247);
+  display: flex;
+  justify-content: center;
+  background-image: url(./images/wallwhite.png);
+  background-attachment: fixed;
+}
+
+.sectionmain {
+  background-color: rgb(197, 21, 44);
+
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px rgb(197, 21, 44) solid;
+  background-attachment: fixed;
+}
+
+.posicionando {
+  display: flex;
+  justify-content: end;
+  width: 480px;
+  height: 458px;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.sectionmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionmain h1 {
+  margin-top: 25px;
+  font-size: 15px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  font-weight: 200;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 112vh;
+}
+
+.koifish {
+  width: 100px;
+
+  height: 15vh;
+  padding-top: 100px;
+  background-position: 90%;
+  opacity: 85%;
+
+  background-image: url(./images/imgbin_koi-goldfish-japan-painting-png.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  margin-top: 25px;
+}
+
+.koicontainer {
+  width: 100%;
+  display: flex;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.storiecontainer {
+  padding: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 75vh;
+  flex-wrap: wrap;
+}
+
+.storiecontainer p {
+  width: 45%;
+
+  font-weight: 100;
+}
+
+.p1,
+.p11 {
+  width: 40%;
+
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 25px;
+
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-radius: 10px;
+  color: rgb(156, 157, 158);
+}
+
+.p11 p {
+  width: 53%;
+  font-size: 14.8px;
+  font-family: monospace !important;
+}
+
+@media only screen and (max-width: 1095px) {
+  .storiecontainer {
+    flex-direction: column;
+  }
+
+  .p1 {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+
+    margin: 0px !important;
+    padding: 0px !important;
+    align-items: flex-end !important;
+    text-align: start;
+  }
+  .p11 p {
+    width: 100%;
+  }
+
+  .p1 p {
+    width: 100%;
+  }
+  .p11 {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .storiecontainer {
+    flex-direction: column;
+    height: 118vh;
+  }
+
+  main {
+    height: 150vh;
+  }
+}
+
+.h1koi {
+  color: rgb(122, 122, 122);
+  width: 75%;
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 80px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1460px) {
+  .h1koi {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .h1koi {
+    font-size: 25px;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 497px) {
+  .h1koi {
+    font-size: 20px;
+    width: 50%;
+  }
+}
+
+section {
+  background-color: rgb(236, 231, 235);
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  height: min-content;
+}
+
+.storiecontainer {
+  display: flex;
+
+  height: min-content;
+}
+.heightprovider {
+  height: 8vh;
+}
+
+.p11 {
+  justify-content: flex-end;
+}
+
+.p1 {
+  justify-content: flex-start;
+}
+
+.p1 p {
+  margin-left: 110px;
+}
+
+.h1koi {
+  margin-left: 140px;
+}
+
+@media only screen and (max-width: 1095px) {
+  .p1 p {
+    width: 100%;
+    margin-left: 10px !important;
+  }
+}
+
+.h3koi {
+  position: relative;
+}
+
+.h3koi::before,
+.h3koi::after {
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.h3koi::before {
+  background-color: rgb(197, 21, 44);
+  animation: typewriter 1.5s steps(15) forwards;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+.animado {
+  font-size: 0px;
+  padding: 20px;
+}
+
+@font-face {
+  font-family: "akirajimbo";
+  src: url("/assets/images/bullets4.ttf") format("truetype"); /* puedes especificar distintos formatos según tu necesidad */
+}
+
+body {
+  font-family: "Mi Fuente Personalizada", Arial, sans-serif;
+}
+
+.h4koi {
+  position: relative;
+
+  font-size: 18px;
+  font-family: monospace;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.h4koi::before,
+.h4koi::after {
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.h4koi::before {
+  background-color: rgb(238, 216, 233);
+  animation: typewriter 1.5s steps(18) forwards;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+.h4koi span {
+  font-weight: 100;
+  font-family: monospace;
+  font-size: 11px;
+  color: rgb(115, 116, 117);
+}
+
+.animado2 {
+  font-size: 0px;
+}
+
+.h4koi {
+  position: relative;
+
+  font-size: 18px;
+  font-family: monospace;
+  font-weight: 700;
+  padding: 15px;
+}
+
+.h4koi::before,
+.h4koi::after {
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.h4koi::before {
+  background-color: rgb(236, 231, 235);
+  animation: typewriter 1.5s steps(18) forwards;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+.h5koi {
+  position: relative;
+
+  font-size: 10px;
+  font-family: monospace;
+  font-weight: 700;
+}
+
+.h5koi::before,
+.h5koi::after {
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.h5koi::before {
+  background-color: rgb(236, 231, 235);
+  animation: typewriter 1.5s steps(18) forwards;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+.animado2container {
+  height: 10px;
+}
+
+.fishes {
+  width: 75px;
+  height: 75px;
+
+  border-radius: 180px;
+  background-size: cover;
+  background-position: 5%;
+  background-image: url(./images/Koi\ Fish\ Pond.gif);
+  margin-bottom: -85px;
+  filter: saturate(20%);
+}
+
+@media only screen and (max-width: 740px) {
+  .h1koi {
+    font-size: 15px;
+    margin-left: 5px;
+    width: 80%;
+  }
+
+  .koifish {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+.nav2 {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+
+  position: absolute;
+  justify-content: flex-start;
+  position: fixed;
+  z-index: 100;
+}
+
+.subnav2 {
+  width: 350px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+.subnav2 a {
+  cursor: pointer;
+  color: rgb(199, 194, 198);
+  font-size: 15px;
+  font-family: monospace;
+  margin: 10px;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.subnav2 a:hover {
+  cursor: pointer;
+  color: rgb(65, 63, 63);
+
+  transition-duration: 500ms;
+}
+
+#image-track {
+  background-color: aqua;
+  background-color: rgb(236, 231, 235);
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 70vh;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 1vmin;
+}
+
+#image-track > .image {
+  width: 35vmin;
+  height: 58vmin;
+
+  background: url(./images/sushi/sushi2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-position: 80px -900px;
+  background-size: contain;
+  filter: grayscale(90%);
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+
+#image-track > .image2 {
+  width: 35vmin;
+  height: 58vmin;
+  object-fit: cover;
+
+  background: url(./images/sushi/sushi1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-position: -105px -0px;
+  background-size: contain;
+  filter: grayscale(0%) saturate(150%);
+  clip-path: polygon(100% 0, 0 0, 0 100%);
+}
+#image-track > .image3 {
+  width: 35vmin;
+  height: 58vmin;
+  object-fit: cover;
+
+  background: url(./images/sushi/sushi3.jpg);
+
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  background-position: -270px -900px;
+  filter: grayscale(0%) saturate(150%);
+  clip-path: polygon(100% 100%, 100% 0, 0 100%);
+}
+
+#image-track > .image4 {
+  width: 35vmin;
+  height: 58vmin;
+  object-fit: cover;
+
+  background: url(./images/sushi/sushi6.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  background-position: 380px -900px;
+  filter: grayscale(90%);
+  clip-path: polygon(100% 100%, 0 0, 0 100%);
+}
+
+#image-track .image4:hover {
+  cursor: pointer;
+  filter: grayscale(0%);
+
+  transition-duration: 450ms;
+}
+
+#image-track .image3:hover {
+  cursor: pointer;
+  filter: grayscale(0%) saturate(150%);
+
+  transition-duration: 450ms;
+}
+
+#image-track .image2:hover {
+  cursor: pointer;
+  filter: grayscale(0%) saturate(150%);
+
+  transition-duration: 450ms;
+}
+
+#image-track .image:hover {
+  cursor: pointer;
+  filter: grayscale(0%) saturate(150%);
+
+  transition-duration: 450ms;
+}
+
+@media only screen and (max-width: 600px) {
+  #image-track > .image {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #image-track > .image2 {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #image-track > .image3 {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    margin-top: 0px;
+    margin-bottom: -100px;
+  }
+  #image-track > .image4 {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    margin-top: 0px;
+    margin-bottom: -100px;
+  }
+}
+
+@media only screen and (max-width: 1750px) {
+  #image-track > .image {
+    width: 35vmin;
+    height: 58vmin;
+
+    background: url(./images/sushi/sushi2.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+
+    background-size: contain;
+    filter: grayscale(90%);
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    background-size: cover;
+  }
+
+  #image-track > .image2 {
+    width: 35vmin;
+    height: 58vmin;
+
+    background: url(./images/sushi/sushi1.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+
+    background-size: contain;
+    filter: grayscale(0%) saturate(150%);
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+    background-size: cover;
+  }
+  #image-track > .image3 {
+    width: 35vmin;
+    height: 58vmin;
+
+    background: url(./images/sushi/sushi3.jpg);
+
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+
+    filter: grayscale(0%) saturate(150%);
+    clip-path: polygon(100% 100%, 100% 0, 0 100%);
+    background-size: cover;
+  }
+
+  #image-track > .image4 {
+    width: 35vmin;
+    height: 58vmin;
+
+    background: url(./images/sushi/sushi6.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+
+    filter: grayscale(90%);
+    clip-path: polygon(100% 100%, 0 0, 0 100%);
+
+    background-size: cover;
+  }
+}
+
+footer {
+  height: 5vh;
+  background-color: rgb(236, 231, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.codedanddesigned {
+  font-size: 11px;
+  font-family: monospace;
+  text-decoration: none;
+  color: black;
+
+  width: 250px;
+
+  text-align: center;
+}
+
+.codedanddesigned2 {
+  font-size: 11px;
+  font-family: monospace;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.contmenu {
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+}
+.menumain {
+  min-height: 100vh;
+  width: 75%;
+
+  background-image: url(/assets/images/ruidoshop.jpg);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+.asidecontainer {
+  width: 25%;
+  min-height: 100vh;
+  z-index: 150;
+}
+aside {
+  width: 25%;
+
+  background-image: url(/assets/images/ruidoshop3.jpg);
+
+  gap: 20px;
+  min-height: 100vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+
+  align-items: center;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+/* 
+//////////////////EMPIEZA LA CARD///////////////// */
+.card {
+  z-index: 20;
+  width: 280px;
+  height: 410px;
+  background-color: rgb(243, 243, 243);
+  /* background-color: rgba(29, 24, 24, 0); */
+  border: none;
+  border-radius: 0px;
+  border-radius: 10px 10px 5px 5px;
+  margin-bottom: 30px;
+  flex-direction: column;
+  display: flex;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  animation: ease-in-out;
+}
+
+.card:hover {
+  box-shadow: rgba(5, 5, 10, 0.154) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.084) 0px 8px 16px -8px;
+  transition-duration: 0.5s;
+}
+
+.card:not(:hover) {
+  box-shadow: rgba(40, 40, 45, 0.2) 0px 7px 29px 0px;
+  transition-duration: 1.5s;
+}
+.cardimage {
+  height: 200px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.cardimage img {
+  width: 100%;
+  height: 105%;
+  object-fit: cover;
+  border-radius: 5px 5px 0px 0px;
+  object-fit: cover;
+}
+
+.descriptioncontainercard {
+  width: 100%;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.card h3 {
+  height: 20px;
+
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.descriptioncontainercard p {
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+
+  padding-right: 10px;
+
+  height: 55px;
+  font-weight: 400;
+  border-bottom: 1px solid rgb(212, 211, 211);
+  overflow: auto;
+}
+
+.descriptioncontainercard p::-webkit-scrollbar {
+  width: 5px; /* Tamaño de la barra de desplazamiento */
+  background-color: #f5f5f5; /* Color de fondo */
+}
+
+.descriptioncontainercard p::-webkit-scrollbar-thumb {
+  background-color: #888888;
+  height: -2px; /* Color del cursor */
+}
+.pricecard {
+  width: 100%;
+  padding: 2px;
+  font-family: "Raleway", sans-serif;
+  border: none;
+  border-radius: 4px;
+  font-weight: 400;
+  font-family: monospace !important;
+  color: rgb(36, 35, 35);
+  height: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: -5px;
+  font-size: 12px;
+  padding: 10px;
+  font-weight: 700;
+  border: 1px solid rgb(199, 195, 195);
+}
+.descriptioncontainercard button {
+  width: 100%;
+  padding: 5px;
+  font-family: "Raleway", sans-serif;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  background-color: rgb(226, 37, 62);
+  color: white;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.descriptioncontainercard button:hover {
+  background-color: rgb(68, 68, 67);
+  color: rgb(226, 37, 62);
+  font-weight: 800;
+}
+
+/* /////////////////////TERMINACARD////////////////////////*/
+
+@media only screen and (max-width: 1100px) {
+  .menumain {
+    width: 65%;
+  }
+  .asidecontainer {
+    width: 35%;
+  }
+  aside {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .contmenu {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menumain {
+    min-height: 100vh;
+    width: 100%;
+  }
+  .asidecontainer {
+    min-height: 20vh;
+    width: 100%;
+  }
+  aside {
+    min-height: 20vh;
+    width: 100%;
+    z-index: 100;
+  }
+}
+
+aside h5 {
+  color: white;
+  margin-left: 80px;
+  font-size: 23px;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+}
+
+#searchbar1 {
+  border-radius: 8px;
+  border: none;
+  font-family: "Nunito", sans-serif;
+  padding: 7px;
+  width: 245px;
+  height: 30px;
+  font-size: 12px;
+  margin-left: 80px;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+@media only screen and (max-width: 375px) {
+  .fishes {
+    width: 55px !important;
+    height: 55px !important;
+    margin-bottom: -60px;
+  }
+  footer {
+    min-height: 10vh;
+    z-index: 20000;
+  }
+
+  .image4 {
+    margin-bottom: 0px !important;
+  }
+
+  #image-track {
+    min-height: 30vh !important;
+    display: flex;
+    gap: 5px;
+  }
+
+  .gallery {
+    width: 152px;
+    position: absolute;
+    right: 20px;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  aside h5 {
+    font-size: 15px;
+    margin-right: 10px;
+  }
+  #searchbar1 {
+    width: 180px;
+    font-size: 12px;
+    margin-right: 15px;
+  }
+}
+
+.checkboxes {
+  width: 300px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 110px;
+  flex-wrap: wrap;
+  align-content: center;
+
+  gap: 5px;
+  margin-bottom: 10px;
+  margin-top: 12px;
+}
+
+form {
+  margin-left: 10px;
+  width: 120px;
+
+  display: flex;
+  gap: 10px;
+}
+
+form label {
+  font-family: "Raleway", sans-serif;
+  color: azure;
+  font-size: 12px;
+  font-weight: 600;
+
+  font-family: "Nunito", sans-serif;
+}
+
+input {
+  accent-color: rgb(248, 246, 246);
+}
+
+.form-check-input:checked {
+  background-color: rgb(65, 63, 63);
+  border-color: transparent;
+  cursor: pointer;
+}
+.form-check-input {
+  background-color: #edf1f1;
+  border-color: rgb(199, 192, 192);
+
+  transition-duration: 430ms;
+  cursor: pointer;
+}
+
+.buttoncontainer {
+  width: 120px;
+
+  display: flex;
+  /* margin-left: 55px; */
+  gap: 40px;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.custom-button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.custom-button img {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  /* -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%) */
+  border-radius: 5px;
+  animation: ease-in-out;
+}
+
+.custom-button img:hover {
+  transition-duration: 0.5s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.custom-button img:not(:hover) {
+  transition-duration: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.157) 0px 25px 50px -12px;
+}
+
+.custom-button span {
+  display: inline-block;
+  margin-left: 8px;
+  font-family: "Nunito", sans-serif;
+  color: #edf1f1;
+  font-weight: 400;
+  font-size: 10px;
+  width: 150px;
+}
+
+.containerdebuttoncontainer {
+  display: flex;
+  justify-content: center;
+  width: 280px;
+
+  margin-left: 62px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+@media only screen and (max-width: 920px) {
+  aside {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .buttoncontainer {
+    flex-direction: row;
+
+    justify-content: center;
+    gap: 15px !important;
+    margin-left: 0px;
+    padding: 0px;
+    width: 150px;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  .containerdebuttoncontainer {
+    width: 350px;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    gap: 35px !important;
+    align-items: center;
+    justify-content: center !important;
+    height: 65px;
+  }
+
+  .custom-button {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0px;
+  }
+
+  .custom-button {
+    border: none;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  .custom-button img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    /* -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%) */
+    border-radius: 180px;
+  }
+
+  .custom-button span {
+    display: none;
+  }
+  .checkboxes {
+    flex-direction: row;
+    background-color: aqua;
+    width: 100%;
+    gap: 10px;
+    display: none;
+  }
+
+  form {
+    width: 60px;
+  }
+
+  aside h5 {
+    display: none;
+  }
+
+  .asidecontainer {
+    min-height: 20vh;
+  }
+  aside {
+    gap: 25px;
+    padding: 0px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    min-height: 20vh !important;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+  }
+
+  #searchbar1 {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .buttoncontainer {
+    flex-direction: row;
+
+    justify-content: center;
+    gap: 15px !important;
+    margin-left: 0px;
+    padding: 0px;
+    width: 150px;
+  }
+
+  .containerdebuttoncontainer {
+    width: 350px;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    gap: 35px !important;
+    align-items: center;
+    justify-content: center !important;
+    height: 65px;
+  }
+
+  .custom-button {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0px;
+  }
+
+  .custom-button {
+    border: none;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  .custom-button img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    /* -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+      clip-path: polygon(50% 0%, 0% 100%, 100% 100%) */
+    border-radius: 180px;
+    border: 2px solid rgb(219, 219, 219);
+  }
+
+  .custom-button span {
+    display: none;
+  }
+  .checkboxes {
+    flex-direction: row;
+    background-color: aqua;
+    width: 100%;
+    gap: 10px;
+    display: none;
+  }
+
+  form {
+    width: 60px;
+  }
+
+  aside h5 {
+    display: none;
+  }
+
+  .asidecontainer {
+    min-height: 0vh;
+  }
+
+  .menumain {
+    padding-top: 275px;
+  }
+  aside {
+    gap: 12px;
+    padding: 0px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    min-height: 30vh !important;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    background-image: none;
+    background-color: rgba(43, 41, 41, 0.253);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding-top: 40px;
+  }
+  nav {
+    padding: 20px;
+  }
+
+  #searchbar1 {
+    width: 350px;
+    margin-left: 15px;
+  }
+}
+
+.dot-spinner {
+  --uib-size: 2.8rem;
+  --uib-speed: 0.9s;
+  --uib-color: #183153;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: var(--uib-size);
+  width: var(--uib-size);
+}
+
+.dot-spinner__dot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+}
+
+.dot-spinner__dot::before {
+  content: "";
+  height: 20%;
+  width: 20%;
+  border-radius: 50%;
+  background-color: rgb(26, 24, 24);
+  transform: scale(0);
+  opacity: 0.5;
+  animation: pulse0112 calc(var(--uib-speed) * 1.111) ease-in-out infinite;
+  box-shadow: 0 0 20px rgba(18, 31, 53, 0.3);
+}
+
+.dot-spinner__dot:nth-child(2) {
+  transform: rotate(45deg);
+}
+
+.dot-spinner__dot:nth-child(2)::before {
+  animation-delay: calc(var(--uib-speed) * -0.875);
+}
+
+.dot-spinner__dot:nth-child(3) {
+  transform: rotate(90deg);
+}
+
+.dot-spinner__dot:nth-child(3)::before {
+  animation-delay: calc(var(--uib-speed) * -0.75);
+}
+
+.dot-spinner__dot:nth-child(4) {
+  transform: rotate(135deg);
+}
+
+.dot-spinner__dot:nth-child(4)::before {
+  animation-delay: calc(var(--uib-speed) * -0.625);
+}
+
+.dot-spinner__dot:nth-child(5) {
+  transform: rotate(180deg);
+}
+
+.dot-spinner__dot:nth-child(5)::before {
+  animation-delay: calc(var(--uib-speed) * -0.5);
+}
+
+.dot-spinner__dot:nth-child(6) {
+  transform: rotate(225deg);
+}
+
+.dot-spinner__dot:nth-child(6)::before {
+  animation-delay: calc(var(--uib-speed) * -0.375);
+}
+
+.dot-spinner__dot:nth-child(7) {
+  transform: rotate(270deg);
+}
+
+.dot-spinner__dot:nth-child(7)::before {
+  animation-delay: calc(var(--uib-speed) * -0.25);
+}
+
+.dot-spinner__dot:nth-child(8) {
+  transform: rotate(315deg);
+}
+
+.dot-spinner__dot:nth-child(8)::before {
+  animation-delay: calc(var(--uib-speed) * -0.125);
+}
+
+@keyframes pulse0112 {
+  0%,
+  100% {
+    transform: scale(0);
+    opacity: 0.5;
+  }
+
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.text-focus-in {
+  -webkit-animation: text-focus-in 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53)
+    both;
+  animation: text-focus-in 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  font-family: monospace;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.actived {
+  border-top: 2px solid red;
+}
+
+@media only screen and (max-width: 1680px) {
+  #image-track > .image2 {
+    width: 35vmin;
+    height: 58vmin;
+    object-fit: cover;
+    /* border-radius:0% 100% 0% 100% / 54% 75% 25% 46% ; */
+
+    background: url(./images/sushi/sushi1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-position: -105px -680px;
+    background-size: cover;
+    filter: grayscale(0%) saturate(150%);
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+  }
+
+  #image-track > .image3 {
+    width: 35vmin;
+    height: 58vmin;
+
+    /* border-radius:100% 0% 100% 0% / 74% 62% 38% 26% ; */
+
+    background: url(./images/sushi/sushi3.jpg);
+
+    background-size: cover;
+    background-attachment: fixed;
+
+    background-position: center;
+
+    filter: grayscale(0%) saturate(150%);
+    clip-path: polygon(100% 100%, 100% 0, 0 100%);
+    background-size: cover;
+  }
+
+  #image-track > .image {
+    width: 35vmin;
+    height: 58vmin;
+
+    /* border-radius:100% 0% 100% 0% / 74% 62% 38% 26% ; */
+
+    background: url(./images/sushi/sushi2.jpg);
+    background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+
+    background-position: center;
+
+    filter: grayscale(90%);
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+  }
+
+  #image-track > .image4 {
+    width: 35vmin;
+    height: 58vmin;
+    object-fit: cover;
+    /* border-radius:0% 100% 0% 100% / 54% 75% 25% 46%; */
+
+    background: url(./images/sushi/sushi6.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-position: 380px -350px;
+    filter: grayscale(90%);
+    background-size: cover;
+    clip-path: polygon(100% 100%, 0 0, 0 100%);
+  }
+}
+
+@media only screen and (min-width: 1680px) {
+  .sakuraflower {
+    position: absolute;
+
+    top: 40px;
+    left: 900px;
+  }
+}
+
+#searchbar1::-webkit-search-cancel-button {
+  cursor: pointer;
+}
+
+#searchbar1::-webkit-search-cancel-button,
+#searchbar1::-moz-search-cancel {
+  cursor: pointer;
+}
+
+/* //Carrousel */
+
+.slider-frame {
+  width: 100%;
+  height: 10vh;
+  overflow: hidden;
+  padding-top: 0px;
+  background-color: rgb(27, 27, 27);
+  z-index: 2;
+
+  /* background-image: url(/assets/images/wallwhite.png); */
+}
+
+.slider-frame ul {
+  display: flex;
+  padding: 0;
+  width: 300%;
+
+  animation: slide 15s infinite alternate ease-in-out;
+  z-index: 2;
+}
+
+.slider-frame li {
+  list-style: none;
+  width: 100%;
+  z-index: 2;
+}
+
+.slider-frame img {
+  width: 100%;
+  height: 10vh;
+  object-fit: cover;
+  filter: brightness(70%) grayscale(100%) opacity(100%);
+
+  z-index: 2;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0%;
+  }
+  20% {
+    margin-left: 0%;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+}
+
+.hiddentitle {
+  font-size: 0px;
+  color: #287df400;
+  position: absolute;
+  z-index: -10;
+}
+
+.cta-button {
+  position: absolute;
+  text-decoration: none;
+  background-color: #0000005e;
+  color: #f8f8f8;
+  padding: 10px 20px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  bottom: -60px;
+  right: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.468);
+  font-weight: 100;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.cta-button::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 60px;
+  height: 1px;
+  background-color: rgba(205, 185, 185, 0);
+  top: 20px;
+  left: 50%;
+  z-index: 0;
+  transform: translateX(-50%);
+  border-radius: 300px;
+  -webkit-border-radius: 300px;
+  -moz-border-radius: 300px;
+  -ms-border-radius: 300px;
+  -o-border-radius: 300px;
+  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+}
+
+.cta-button:hover::after {
+  background-color: rgb(242, 234, 234);
+  transition: 0.4s ease-in-out;
+  transform: translateX(-140px);
+  -webkit-transform: translateX(-140px);
+  -moz-transform: translateX(-140px);
+  -ms-transform: translateX(-140px);
+  -o-transform: translateX(-140px);
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -ms-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+}
